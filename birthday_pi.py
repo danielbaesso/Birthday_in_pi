@@ -1,4 +1,6 @@
-filename = "https://github.com/ehmatthes/pcc/blob/master/chapter_10/pi_million_digits.txt"
+# First you need download this txt: https://github.com/ehmatthes/pcc/blob/master/chapter_10/pi_million_digits.txt
+
+filename = "./pi_million_digits.txt"
 
 with open(filename) as file_object:
     lines = file_object.readlines()
